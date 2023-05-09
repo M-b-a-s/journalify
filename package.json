@@ -1,0 +1,37 @@
+{
+  "name": "journalify",
+  "version": "1.0.0",
+  "description": "A CRUD app using nodejs. With journalify you can create notes and publish on the client side while being able to toggle between public and private....",
+  "main": "app.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/M-b-a-s/journalify.git"
+  },
+  "keywords": [],
+  "author": "Ifechimenin Ikwukala-Mbas",
+  "license": "MIT",
+  "dependencies": {
+    "connect-mongo": "^5.0.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-handlebars": "^7.0.7",
+    "express-session": "^1.17.3",
+    "method-override": "^3.0.0",
+    "moment": "^2.29.4",
+    "mongoose": "^7.1.0",
+    "morgan": "^1.10.0",
+    "passport": "^0.6.0",
+    "passport-google-oauth20": "^2.0.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "nodemon": "^2.0.22"
+  },
+  "bugs": {
+    "url": "https://github.com/M-b-a-s/journalify/issues"
+  },
+  "homepage": "https://github.com/M-b-a-s/journalify#readme"
+}
